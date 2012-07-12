@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Safari X2H.exe" version="2.1.0.0" publicKeyToken="e9111e64cd74d6b9" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Safari X2H" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Safari X2H.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Safari X2H.exe" size="143360">
+      <assemblyIdentity name="Safari X2H" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>09iRHj2S+leYq/v7RPU1C2suJ9o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="3774">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SX/s/WSkQAxjsT3bdE1ZGYmLB5M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Safari X2H.exe.config" size="819">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gppyzernsVcj5RKsQBEKgVAcFXQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EVOLVEBRANDS\kannan" issuerKeyHash="68dd42b206473bf4f86e288644b632491a011cf8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BVhj8DY0WmFWfAFqRAGVuyxhq/0=</DigestValue></Reference></SignedInfo><SignatureValue>baDJ4ulc4Zc6hEgLosSDiqEqTPknst2gQO6Rd70bxt0DNv2M/RZX0D4QuS9sZX0oMixNUS7jKIbnrfvZSBr8rDA1M4of2F4N6Ol/SMY36MnTrFrq0qV4Nq4k3dtTtX3K6VaUB0IueSK/dnOpDLvhko02aloijD5caEr8mELtF00=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mHHKNwNsnLYd6rw57sqAn6HCeOqRKBOdbpqnp7zHxv2ZYzU7flInnnRr8Ryq+1jCPOozaW3qq4mk8A/IPl7DvjUstlbYJ1W1ALUulpdHfEltNWBsD4qimkHHLI9HRrByav5owr3foKbqpVxjE0Y7z9ahwGnAKNWnoJut/ZI3A+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fdab612cbb9501446a017c56615a3436f0635805" Description="" Url=""><as:assemblyIdentity name="Safari X2H.exe" version="2.1.0.0" publicKeyToken="e9111e64cd74d6b9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EVOLVEBRANDS\kannan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OZajKG2CR6fQXQ5jhnxZS3s29Ls=</DigestValue></Reference></SignedInfo><SignatureValue>R8LGg1flHylDJUjVJjqIH2bYoX7cJOIpOdHljGWTaV2tEMq+agxF7WJaPzRFXVPQeqX+fgu2SIuNRHqijXiJoHg6HSuIcORMtnc0HKw5/PF91c1pgcC1fGbYbEUkMW6TkbejZBquV90oHt2VuCBXxdLyuz62S7vdTmpD1zCMqLs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mHHKNwNsnLYd6rw57sqAn6HCeOqRKBOdbpqnp7zHxv2ZYzU7flInnnRr8Ryq+1jCPOozaW3qq4mk8A/IPl7DvjUstlbYJ1W1ALUulpdHfEltNWBsD4qimkHHLI9HRrByav5owr3foKbqpVxjE0Y7z9ahwGnAKNWnoJut/ZI3A+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQ5s/OPy9z8YZKrgT64p3GczAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBFAFYATwBMAFYARQBCAFIAQQBOAEQAUwBcAGsAYQBuAG4AYQBuMB4XDTA5MDQxNjEyNTcwM1oXDTEwMDQxNjE4NTcwM1owMTEvMC0GA1UEAx4mAEUAVgBPAEwAVgBFAEIAUgBBAE4ARABTAFwAawBhAG4AbgBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJhxyjcDbJy2Heq8Oe7KgJ+hwnjqkSgTnW6ap6e8x8b9mWM1O35SJ550a/EcqvtYwjzqM2lt6quJpPAPyD5ew741LLZW2CdVtQC1LpaXR3xJbTVgbA+KoppBxyyPR0awcmr+aMK936Cm6qVcYxNGO8/WocBpwCjVp6Cbrf2SNwPtAgMBAAEwCQYFKw4DAh0FAAOBgQAyMGOHT53T4k6lAhwS2F1CvkbYHJNrooIvvtQhIYgfO85vSsuFcXHqIqrkMu2TU9ns1lRptaOA0fmC14e9MPVIdm8H6JFGpgGZlr/7u/fXoV2n68ysVFMQc3Cc48JqCV7qB/N0wMRrynBxJJ6U3XjsbsRGhu3M90Sejz3Lvpr+NA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

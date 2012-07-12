@@ -1,0 +1,17 @@
+F:\Data\Other\Work\PUK\PUK\bin\Debug\PUK.exe.config
+F:\Data\Other\Work\PUK\PUK\obj\Debug\PUK.exe
+F:\Data\Other\Work\PUK\PUK\obj\Debug\PUK.pdb
+F:\Data\Other\Work\PUK\PUK\bin\Debug\PUK.exe.manifest
+F:\Data\Other\Work\PUK\PUK\bin\Debug\PUK.application
+F:\Data\Other\Work\PUK\PUK\bin\Debug\PUK.exe
+F:\Data\Other\Work\PUK\PUK\bin\Debug\PUK.pdb
+F:\Data\Other\Work\PUK\PUK\obj\Debug\ResolveAssemblyReference.cache
+F:\Data\Other\Work\PUK\PUK\obj\Debug\ORC.AboutBox1.resources
+F:\Data\Other\Work\PUK\PUK\obj\Debug\ORC.frmORC.resources
+F:\Data\Other\Work\PUK\PUK\obj\Debug\ORC.Form2.resources
+F:\Data\Other\Work\PUK\PUK\obj\Debug\ORC.frmSplitter.resources
+F:\Data\Other\Work\PUK\PUK\obj\Debug\ORC.Properties.Resources.resources
+F:\Data\Other\Work\PUK\PUK\obj\Debug\PUK.csproj.GenerateResource.Cache
+F:\Data\Other\Work\PUK\PUK\obj\Debug\PUK.TrustInfo.xml
+F:\Data\Other\Work\PUK\PUK\obj\Debug\PUK.exe.manifest
+F:\Data\Other\Work\PUK\PUK\obj\Debug\PUK.application

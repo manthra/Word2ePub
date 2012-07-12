@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="PUK.exe" version="1.9.0.0" publicKeyToken="e9111e64cd74d6b9" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PUK" version="1.9.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PUK.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ionic.Zip.dll" size="443904">
+      <assemblyIdentity name="Ionic.Zip" version="1.9.1.1" publicKeyToken="EDBE51AD942A3F5C" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>T6Nb52WCsEMlSEoGPceyOAmP6jo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PUK.exe" size="196608">
+      <assemblyIdentity name="PUK" version="1.9.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>FO9E/5et+0L/5LINzh2mhgK6bAA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="arrow_down.gif" size="51">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ExnsfW9hPx0wq9nVpoDbtiTPpts=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arrow_up.gif" size="52">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rSCZ09S8qMY/wspYNFF2m+o9n4U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon.ico" size="3774">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SX/s/WSkQAxjsT3bdE1ZGYmLB5M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PUK.exe.config" size="819">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gppyzernsVcj5RKsQBEKgVAcFXQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EVOLVEBRANDS\kannan" issuerKeyHash="68dd42b206473bf4f86e288644b632491a011cf8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>hiM4JGvKSjWd9kBfar8D3+u8oBw=</DigestValue></Reference></SignedInfo><SignatureValue>C7ZpUSt0qobUGx2M4RDKpvE30Mv4p1vZKBsGA7pz3NGtIKh4XEvR2ob3jzZIF/ABk5lir0sEYF04Nc+5xqNDoi7sfIzdpAEBrJd3Lhy5/UgoFynq7p3UhT6AGxQtoZ/4aXTYLc+v30wf9k1Q7jYiOUy6K8IKX8BLeejjvwrrQW8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mHHKNwNsnLYd6rw57sqAn6HCeOqRKBOdbpqnp7zHxv2ZYzU7flInnnRr8Ryq+1jCPOozaW3qq4mk8A/IPl7DvjUstlbYJ1W1ALUulpdHfEltNWBsD4qimkHHLI9HRrByav5owr3foKbqpVxjE0Y7z9ahwGnAKNWnoJut/ZI3A+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1ca0bcebdf03bf6a5f40f69d354aca6b24382386" Description="" Url=""><as:assemblyIdentity name="PUK.exe" version="1.9.0.0" publicKeyToken="e9111e64cd74d6b9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EVOLVEBRANDS\kannan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gNRbXDwydUw9/DvwRSqNKPcf86Y=</DigestValue></Reference></SignedInfo><SignatureValue>erE0+Vat3jTzDoBRQZuEVBHZex2z/Um5Zkz4fu/G5uUS6HGzhhdF1wH6l2udxLsMV4abUAhCD0+2Z1KNNyuX07uzcrZdouByAobwJpIjE7YjR/f/hbDn8Pqv/snCLsyHhzm3oI/xkaTe68vhu6bt0pDwF6RIN6Zdc7SBDYVWNqQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mHHKNwNsnLYd6rw57sqAn6HCeOqRKBOdbpqnp7zHxv2ZYzU7flInnnRr8Ryq+1jCPOozaW3qq4mk8A/IPl7DvjUstlbYJ1W1ALUulpdHfEltNWBsD4qimkHHLI9HRrByav5owr3foKbqpVxjE0Y7z9ahwGnAKNWnoJut/ZI3A+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQ5s/OPy9z8YZKrgT64p3GczAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBFAFYATwBMAFYARQBCAFIAQQBOAEQAUwBcAGsAYQBuAG4AYQBuMB4XDTA5MDQxNjEyNTcwM1oXDTEwMDQxNjE4NTcwM1owMTEvMC0GA1UEAx4mAEUAVgBPAEwAVgBFAEIAUgBBAE4ARABTAFwAawBhAG4AbgBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJhxyjcDbJy2Heq8Oe7KgJ+hwnjqkSgTnW6ap6e8x8b9mWM1O35SJ550a/EcqvtYwjzqM2lt6quJpPAPyD5ew741LLZW2CdVtQC1LpaXR3xJbTVgbA+KoppBxyyPR0awcmr+aMK936Cm6qVcYxNGO8/WocBpwCjVp6Cbrf2SNwPtAgMBAAEwCQYFKw4DAh0FAAOBgQAyMGOHT53T4k6lAhwS2F1CvkbYHJNrooIvvtQhIYgfO85vSsuFcXHqIqrkMu2TU9ns1lRptaOA0fmC14e9MPVIdm8H6JFGpgGZlr/7u/fXoV2n68ysVFMQc3Cc48JqCV7qB/N0wMRrynBxJJ6U3XjsbsRGhu3M90Sejz3Lvpr+NA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

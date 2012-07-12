@@ -1,0 +1,15 @@
+bin\Debug\ORC.exe
+bin\Debug\ORC.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ORC.frmORC.resources
+obj\Debug\ORC.Properties.Resources.resources
+obj\Debug\ORC.csproj.GenerateResource.Cache
+obj\Debug\ORC.exe
+obj\Debug\ORC.pdb
+bin\Debug\ORC.exe.manifest
+bin\Debug\ORC.application
+obj\Debug\ORC.AboutBox1.resources
+obj\Debug\ORC.TrustInfo.xml
+obj\Debug\ORC.exe.manifest
+obj\Debug\ORC.application
+bin\Debug\ORC.exe.config

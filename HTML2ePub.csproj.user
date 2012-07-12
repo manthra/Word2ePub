@@ -1,0 +1,15 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\user\Desktop\HTML2ePub\|C:\Documents and Settings\KannanKR\Desktop\PUK2\|C:\Documents and Settings\KannanKR\Desktop\HTML2ePub\|C:\Documents and Settings\KannanKR\Desktop\PUK\UP\|C:\Documents and Settings\KannanKR\Desktop\KKK\</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>http://kannankr.in/support/</SupportUrlHistory>
+    <UpdateUrlHistory>http://mapranam.in/apps/puk/|http://kannankr.in/apps/puk/|http://kannankr.in/apps/sfr/</UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+  </PropertyGroup>
+</Project>

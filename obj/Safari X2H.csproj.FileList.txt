@@ -1,0 +1,16 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ORC.AboutBox1.resources
+obj\Debug\ORC.frmORC.resources
+obj\Debug\ORC.Properties.Resources.resources
+obj\Debug\Safari X2H.csproj.GenerateResource.Cache
+obj\Debug\ORC.Form2.resources
+bin\Debug\PUK.exe.config
+bin\Debug\PUK.exe.manifest
+bin\Debug\PUK.application
+bin\Debug\PUK.exe
+bin\Debug\PUK.pdb
+obj\Debug\PUK.TrustInfo.xml
+obj\Debug\PUK.exe.manifest
+obj\Debug\PUK.application
+obj\Debug\PUK.exe
+obj\Debug\PUK.pdb
